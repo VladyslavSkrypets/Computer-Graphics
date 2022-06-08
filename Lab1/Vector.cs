@@ -39,7 +39,7 @@ public class Vector
 
     public bool IsEqualTo(Vector vector)
     {
-        return (int)X == (int)vector.X & (int)Y == (int)vector.Y & (int)Z == (int)vector.Z;
+        return (int)X == (int)vector.X && (int)Y == (int)vector.Y && (int)Z == (int)vector.Z;
     }
 
     public static Vector operator +(Vector vectorOne, Vector vectorTwo)
