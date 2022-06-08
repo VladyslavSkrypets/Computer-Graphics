@@ -10,4 +10,6 @@ public class Sphere
     
     public float Radius { get; set; }
     public Point Center { get; set; } 
+    
+    // add method getNormal that gets point
 }

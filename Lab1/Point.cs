@@ -16,10 +16,7 @@ public class Point
     
     public void Print()
     {
-        Console.WriteLine($"Point(x={X}, y={Y}, x={Z})");
+        Console.WriteLine($"Point(x={X}, y={Y}, z={Z})");
     }
-    
-    
-    
-    
+     // Add methods for operator overloading + and -
 }
